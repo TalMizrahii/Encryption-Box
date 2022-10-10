@@ -14,6 +14,10 @@ In this program, I used the "Tkinter" library for the GUI.
 
 ![123](https://user-images.githubusercontent.com/103560553/194918643-2680c671-374e-4327-9988-d483119c535e.PNG)
 
+
+*IMPORTANT* - If you wish to run the game, you can downlaod the "EB release" package and run the "EncryptionBox.exe" file. 
+
+
 ## The cipher
 The Vigenere cipher was issued in 1553. It is a polyalphabetic cipher, which uses a key to encrypt plaintext into ciphertext. The main advantage of it is that it is highly resistant to frequency analysis.
 
