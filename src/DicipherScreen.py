@@ -4,7 +4,6 @@ from src import StartScreen, DecipherMessageScreen
 
 
 def decipher_screen(root):
-
     # Clearing this frame and setting the "Start" screen.
     def back_to_start():
         decipher_frame.destroy()
@@ -47,10 +46,16 @@ def decipher_screen(root):
     # Creating the frame for this screen.
     decipher_frame = Frame(root, bg="#c9c9c9")
     # Creating the headline of the key screen.
-    headline_label = Label(decipher_frame, text="ENCRYPTION BOX - DECRYPT", font=(None, 27), width=60, bg="#c9c9c9")
+    headline_label = Label(decipher_frame,
+                           text="ENCRYPTION BOX - DECRYPT",
+                           font=(None, 27),
+                           width=60,
+                           bg="#c9c9c9")
     headline_label.pack(pady=30, padx=5)
     # Creating a key instruction.
-    key_instruction_lbl = Label(decipher_frame, text="Enter key (at least 2 characters)", font=(None, 20),
+    key_instruction_lbl = Label(decipher_frame,
+                                text="Enter key (at least 2 characters)",
+                                font=(None, 20),
                                 bg="#c9c9c9")
     key_instruction_lbl.pack(pady=5)
     # Creating an entry label for the key.
@@ -60,7 +65,10 @@ def decipher_screen(root):
     space_lbl = Label(decipher_frame, bg="#c9c9c9")
     space_lbl.pack(pady=1)
     # Creating "Enter a massage" instruction.
-    entry_message_lbl = Label(decipher_frame, text="Enter ciphertext", font=(None, 20), bg="#c9c9c9")
+    entry_message_lbl = Label(decipher_frame,
+                              text="Enter ciphertext",
+                              font=(None, 20),
+                              bg="#c9c9c9")
     entry_message_lbl.pack(pady=5)
     # Creating an entry scrolled text for the message.
     entry_message_widget = scrolledtext.ScrolledText(decipher_frame,
@@ -78,7 +86,10 @@ def decipher_screen(root):
                              borderwidth=3)
     decipher_button.pack(pady=5)
     # Creating the "Back" button.
-    back_button = Button(decipher_frame, text="Back", command=back_to_start, font=(None, 15))
+    back_button = Button(decipher_frame,
+                         text="Back",
+                         command=back_to_start,
+                         font=(None, 15))
     back_button.pack(pady=15)
     # Packing the screen's frame.
     decipher_frame.pack()
