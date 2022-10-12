@@ -43,10 +43,17 @@ def encrypted_screen(root, key, message):
     # Creating the frame for this screen.
     encrypted_message_frame = Frame(root, bg="#c9c9c9")
     # Headline of the system.
-    headline_label = Label(encrypted_message_frame, text="ENCRYPTED MESSAGE", font=(None, 30), width=60, bg="#c9c9c9")
+    headline_label = Label(encrypted_message_frame, 
+                           text="ENCRYPTED MESSAGE", 
+                           font=(None, 30), 
+                           width=60, 
+                           bg="#c9c9c9")
     headline_label.pack(pady=30)
     # The description label
-    description_label = Label(encrypted_message_frame, text="The encrypted message is:", font=(None, 25), bg="#c9c9c9")
+    description_label = Label(encrypted_message_frame, 
+                              text="The encrypted message is:", 
+                              font=(None, 25), 
+                              bg="#c9c9c9")
     description_label.pack(pady=30)
     # Creating an entry scrolled text for the message.
     entry_message_widget = scrolledtext.ScrolledText(encrypted_message_frame,
@@ -57,12 +64,16 @@ def encrypted_screen(root, key, message):
     entry_message_widget.insert(INSERT, encrypt())
     entry_message_widget.pack()
     # Creating an instruction label.
-    instruction_label = Label(encrypted_message_frame, text="copy the cipher above",
+    instruction_label = Label(encrypted_message_frame, 
+                              text="copy the cipher above",
                               font=(None, 20),
                               bg="#c9c9c9")
     instruction_label.pack()
     # Creating "back to menu" button.
-    back_to_menu_button = Button(encrypted_message_frame, text="Back", command=back_to_menu, font=(None, 15))
+    back_to_menu_button = Button(encrypted_message_frame, 
+                                 text="Back", 
+                                 command=back_to_menu, 
+                                 font=(None, 15))
     back_to_menu_button.pack(pady=25)
     # Packing this screen's frame.
     encrypted_message_frame.pack()
