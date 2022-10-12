@@ -49,11 +49,15 @@ def encrypt_screen(root):
     headline_label = Label(encrypt_frame, text="ENCRYPTION BOX - ENCRYPT", font=(None, 27), width=60, bg="#c9c9c9")
     headline_label.pack(pady=30, padx=5)
     # Creating a key instruction.
-    key_instruction_lbl = Label(encrypt_frame, text="Enter key (at least 2 characters)", font=(None, 20),
+    key_instruction_lbl = Label(encrypt_frame,
+                                text="Enter key (at least 2 characters)",
+                                font=(None, 20),
                                 bg="#c9c9c9")
     key_instruction_lbl.pack(pady=5)
     # The warning label of the key screen.
-    warning_label = Label(encrypt_frame, text="WARNING - Keep the key in a safe place!", font=(None, 13, "bold"),
+    warning_label = Label(encrypt_frame,
+                          text="WARNING - Keep the key in a safe place!",
+                          font=(None, 13, "bold"),
                           bg="#c9c9c9",
                           fg="Red")
     warning_label.pack()
@@ -82,7 +86,10 @@ def encrypt_screen(root):
                             borderwidth=3)
     encrypt_button.pack(pady=5)
     # Creating a "Back" button.
-    back_button = Button(encrypt_frame, text="Back", command=back, font=(None, 15))
+    back_button = Button(encrypt_frame, 
+                         text="Back", 
+                         command=back, 
+                         font=(None, 15))
     back_button.pack(pady=15)
     # Packing the screen's frame.
     encrypt_frame.pack()
