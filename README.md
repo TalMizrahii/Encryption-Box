@@ -24,6 +24,6 @@ The Vigenere cipher was issued in 1553. It is a polyalphabetic cipher, which use
 ![vigenere-cipher](https://user-images.githubusercontent.com/103560553/196162003-5043af75-310f-4060-a373-97d39825fbbf.png)
 
 
-If you wish to read about the cipher and Frequency Analysis you can visit:
+If you wish to read about the Vigenere cipher or about Frequency Analysis you can visit:
 * https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 * https://en.wikipedia.org/wiki/Frequency_analysis
