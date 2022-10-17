@@ -21,6 +21,9 @@ In this program, I used the "Tkinter" library for the GUI.
 ## The cipher
 The Vigenere cipher was issued in 1553. It is a polyalphabetic cipher, which uses a key to encrypt plaintext into ciphertext. The main advantage of it is that it is highly resistant to frequency analysis.
 
+![vigenere-cipher](https://user-images.githubusercontent.com/103560553/196162003-5043af75-310f-4060-a373-97d39825fbbf.png)
+
+
 If you wish to read about the cipher and Frequency Analysis you can visit:
 * https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 * https://en.wikipedia.org/wiki/Frequency_analysis
