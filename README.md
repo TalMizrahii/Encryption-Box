@@ -15,7 +15,7 @@ In this program, I used the "Tkinter" library for the GUI.
 ![123](https://user-images.githubusercontent.com/103560553/194918643-2680c671-374e-4327-9988-d483119c535e.PNG)
 
 
-*IMPORTANT* - If you wish to run the program, you can downlaod the "EB release" package and run the "EncryptionBox.exe" file. 
+*IMPORTANT* - If you wish to run the program, you can downlaod the "EncryptionBox.exe" file. 
 
 
 ## The cipher
